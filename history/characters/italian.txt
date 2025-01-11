@@ -129,10 +129,8 @@
 			learn_language = language_french
 			learn_language = language_high_german
 
-			add_secret = { type = secret_witch }
-			add_secret = { type = secret_deviant }
-			add_secret = { type = secret_prostitute }
 			add_trait = immortal
+			add_trait = saint
 			set_immortal_age = 18
 		}
 	}
