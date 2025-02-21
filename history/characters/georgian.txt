@@ -584,8 +584,8 @@
 	culture = "georgian"
 	trait = ambitious #Involved in the second imperial coup 
 	trait = diligent
+	trait = generous #Noted for her charity
 	trait = curious
-	trait = lustful
 	disallow_random_traits = yes
 	father = 9952
 	mother = 9953
@@ -599,20 +599,11 @@
 		effect = {
 			create_betrothal = character:1736 #In real life they were married at this time, but we don't marry underage characters in this game so bethrothal it is
 		}
+		add_trait = immortal
+		set_immortal_age = 18
 	}
 	1069.1.1 = {
-		effect = {
-			break_betrothal = character:1736
-		}
 		add_spouse = 1736
-		add_trait = education_diplomacy_3
-	}
-	1178.1.1 = {
-		add_secret = { type = secret_witch }
-		add_secret = { type = secret_deviant }
-		mind_break_personality = yes
-		add_trait = sbs_lesser_succubus
-		set_immortal_age = 18
 	}
 }
 
@@ -927,11 +918,6 @@
 	mother = 216540
 	1160.1.1 = {
 		birth = "1160.1.1"
-		add_secret = { type = secret_witch }
-		add_secret = { type = secret_deviant }
-		add_secret = { type = secret_prostitute }
-		add_trait = immortal
-		set_immortal_age = 18
 	}
 	1187.1.1 = {
 		give_nickname = nick_the_great

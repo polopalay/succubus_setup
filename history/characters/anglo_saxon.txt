@@ -610,11 +610,7 @@
 		}	
 	}
 	1066.12.14 = {
-		add_secret = { type = secret_witch }
-		add_secret = { type = secret_deviant }
-		mind_break_personality = yes
-		add_trait = sbs_lesser_succubus
-		set_immortal_age = 18
+		death = "1066.12.14"
 	}
 }
 
@@ -726,11 +722,7 @@
 		birth = "1053.1.2"
 	}
 	1098.1.2 = {
-		add_secret = { type = secret_witch }
-		add_secret = { type = secret_deviant }
-		mind_break_personality = yes
-		add_trait = sbs_lesser_succubus
-		set_immortal_age = 18
+		death = "1098.1.2"
 	}
 }
 
@@ -773,11 +765,7 @@
 		birth = "1055.1.2"
 	}
 	1097.1.2 = {
-		add_secret = { type = secret_witch }
-		add_secret = { type = secret_deviant }
-		mind_break_personality = yes
-		add_trait = sbs_lesser_succubus
-		set_immortal_age = 18
+		death = "1097.1.2"
 	}
 }
 
@@ -826,12 +814,7 @@
 	1045.1.1 = {
 		give_nickname = nick_the_fair
 		add_spouse = 122
-	}
-	1086.1.2 = {
-		add_secret = { type = secret_witch }
-		add_secret = { type = secret_deviant }
-		mind_break_personality = yes
-		add_trait = sbs_lesser_succubus
+		add_trait = immortal
 		set_immortal_age = 18
 	}
 }

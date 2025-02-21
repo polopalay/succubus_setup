@@ -4526,9 +4526,9 @@
 	stewardship = 8
 	religion = "catholic"
 	culture = "dutch"
+	trait = chaste
 	trait = zealous
 	trait = ambitious
-	trait = lustful
 	trait = education_stewardship_3
 	father = 364
 	mother = 213
@@ -4537,24 +4537,8 @@
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}	
-	}
-	1065.1.1 = {
-		effect = {
-			add_secret = { type = secret_witch }
-			add_secret = { type = secret_deviant }
-			mind_break_personality = yes
-			add_trait = sbs_succubus
-			set_immortal_age = 18
-		}
-	}
-	1178.1.1 = {
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-			create_landless_adventurer_title_effect = {
-				REASON = flag:voluntary
-				FLAVOR_CHAR = root
-			}
-		}
+		add_trait = immortal
+		set_immortal_age = 18
 	}
 }
 
@@ -8061,7 +8045,7 @@
 	trait = beauty_good_1
 	trait = gregarious
 	trait = intellect_good_1
-	trait = education_learning_3
+	trait = education_stewardship_3
 	father = 168626
 	839.1.1 = {
 		birth = "839.1.1"
@@ -8073,13 +8057,7 @@
 		employer = 144998 # Lothair II of Burgundy
 	}	
 	890.1.1 = {
-		effect = {
-			add_secret = { type = secret_witch }
-			add_secret = { type = secret_deviant }
-			mind_break_personality = yes
-			add_trait = sbs_lesser_succubus
-			set_immortal_age = 18
-		}
+		death = "890.1.1"
 	}
 }
 

@@ -128,19 +128,8 @@
 			learn_language = language_latin
 			learn_language = language_french
 			learn_language = language_high_german
-
 			add_trait = immortal
-			add_trait = saint
 			set_immortal_age = 18
-		}
-	}
-	1178.1.1 = {
-		effect = {
-			set_landless_government_effect = yes
-			create_landless_adventurer_title_effect = {
-				REASON = flag:voluntary
-				FLAVOR_CHAR = root
-			}
 		}
 	}
 }
@@ -8153,14 +8142,14 @@
 	dynasty = 7215 #Orsini
 	religion = "catholic"
 	culture = "italian"
-	1178.1.1 = {
-		birth = "1178.1.1"
+	1179.1.1 = {
+		birth = yes
 	}
 	1197.1.1 = {
 		add_spouse = 31445
 	}
 	1238.1.1 = {
-		death = "1238.1.1"
+		death = yes
 	}
 }
 31434 = {
